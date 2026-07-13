@@ -88,12 +88,20 @@ Markdown — é ele que garante a deduplicação entre sincronizações.
 
 ## Histórico via git
 
+Os `.md` da `library/` são versionados — cada `sync` vira um commit e o `git log`
+guarda a evolução dos seus destaques:
+
 ```bash
 git add library && git commit -m "sync $(date +%F)"
 ```
 
 `auth/storageState.json` (cookies da sua sessão) está no `.gitignore` e **nunca** é
 versionado.
+
+> ⚠️ **Privacidade:** seus destaques revelam mais que uma lista de livros — mostram
+> quais trechos te marcaram. Neste repositório eles são públicos por escolha do autor.
+> Se for usar como base para o **seu** acervo, avalie tornar o fork **privado** antes
+> do primeiro `sync`, ou adicione `library/*.md` ao `.gitignore`.
 
 ## Integrações
 
