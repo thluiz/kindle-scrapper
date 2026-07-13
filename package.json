@@ -1,0 +1,19 @@
+{
+  "name": "kindle-scrapper",
+  "version": "0.1.0",
+  "description": "Baixa as marcações do Kindle (read.amazon.com/notebook) para Markdown versionado, sem duplicar. Alternativa livre ao Readwise.",
+  "type": "module",
+  "bin": {
+    "kindle": "bin/kindle.js"
+  },
+  "scripts": {
+    "sync": "node bin/kindle.js sync",
+    "login": "node bin/kindle.js login",
+    "recent": "node bin/kindle.js recent",
+    "list": "node bin/kindle.js list"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "license": "MIT"
+}

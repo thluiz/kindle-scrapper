@@ -1,0 +1,5 @@
+node_modules/
+# Estado de sessão da Amazon (cookies) — NUNCA versionar
+auth/storageState.json
+auth/*.json
+*.log
