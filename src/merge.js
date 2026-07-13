@@ -16,9 +16,9 @@ export function mergeBook(libraryDir, scraped) {
 
   const existing = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;
 
-  // Guarda de segurança: se o scrape voltou vazio mas já havia conteúdo,
-  // é quase certo que foi falha de scraping — não apagar o histórico.
-  if ((!scraped.highlights || scraped.highlights.length === 0) && existing) {
+  // Sem destaques: nunca cria arquivo vazio; se já existe, mantém intacto
+  // (um scrape vazio costuma ser falha transiente — não apagar o histórico).
+  if (!scraped.highlights || scraped.highlights.length === 0) {
     return { file, added: 0, updated: 0, total: 0, skipped: true };
   }
 
