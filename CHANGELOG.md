@@ -7,7 +7,13 @@ projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [Não lançado]
 
+### Adicionado
+- `scripts/daily-sync.ps1`: sync diário → commit/push no git, com notificação via
+  GossipGate (inclusive se a sessão da Amazon expirar). Registrado como task do
+  Windows `\Claude\KindleDaily`, todo dia às 01:00 (`-StartWhenAvailable`).
+
 ### Corrigido
+- `merge`: livro com 0 destaques não gera mais `.md` vazio (evita churn de commit).
 - **Scraping de destaques agora funciona.** A seleção do livro passou a ser por
   *clique* (dispara o AJAX do Notebook); navegar por `?asin=` não populava o painel
   e resultava em 0 destaques. Location lida do campo `input#kp-annotation-location`
