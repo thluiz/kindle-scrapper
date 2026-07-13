@@ -103,6 +103,31 @@ versionado.
 > Se for usar como base para o **seu** acervo, avalie tornar o fork **privado** antes
 > do primeiro `sync`, ou adicione `library/*.md` ao `.gitignore`.
 
+## Sync automático (diário)
+
+[`scripts/daily-sync.ps1`](scripts/daily-sync.ps1) roda o `sync`, comita e faz push,
+notificando via [GossipGate](http://localhost:8080/api/gossip-gate/send) no fim — e
+avisando se a sessão da Amazon expirou (aí basta rodar `node bin/kindle.js login`
+uma vez). Só comita quando há destaque novo; log em `daily-sync.log` (gitignored).
+
+No Windows, é registrado como a tarefa agendada **`\Claude\KindleDaily`**, todo dia
+às **01:00** (`-StartWhenAvailable`, então roda ao acordar se a máquina estava
+dormindo):
+
+```powershell
+$action   = New-ScheduledTaskAction -Execute 'pwsh' -Argument '-NoProfile -File E:\kindle-scrapper\scripts\daily-sync.ps1'
+$trigger  = New-ScheduledTaskTrigger -Daily -At 01:00
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 30) -MultipleInstances IgnoreNew
+Register-ScheduledTask -TaskPath '\Claude\' -TaskName 'KindleDaily' -Action $action -Trigger $trigger -Settings $settings -Force
+```
+
+Rodar sob demanda / inspecionar:
+
+```powershell
+schtasks /Run   /TN "Claude\KindleDaily"
+schtasks /Query /TN "Claude\KindleDaily" /FO LIST
+```
+
 ## Integrações
 
 - **Scholion / Obsidian:** `kindle recent --since 7d --json` alimenta um script que
