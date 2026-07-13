@@ -7,6 +7,18 @@ projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [Não lançado]
 
+### Corrigido
+- **Scraping de destaques agora funciona.** A seleção do livro passou a ser por
+  *clique* (dispara o AJAX do Notebook); navegar por `?asin=` não populava o painel
+  e resultava em 0 destaques. Location lida do campo `input#kp-annotation-location`
+  (mais confiável que parsear o texto do cabeçalho). Carregamento por scroll para
+  destaques paginados. Validado: 30 livros, 840 destaques.
+
+### Adicionado
+- `debug/inspect.mjs`: inspeciona o DOM real do Notebook para depurar seletores.
+- `.gitignore`: `library/*.md`, `library/.obsidian/` e `debug/dump.html` — as
+  marcações pessoais não são versionadas enquanto o repositório for público.
+
 ### Planejado
 - Skill/script `kindle-to-scholion`: publica quotes de `recent` como notas de citação.
 - Tarefa agendada de resumo diário via GossipGate (destaque do dia).

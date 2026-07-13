@@ -59,6 +59,7 @@ export async function scrapeAll(storageStatePath, { headful = false, debug = fal
 
     const books = await page.$$eval(libSel, (els) =>
       els.map((el) => {
+        // O id do elemento da biblioteca É o ASIN.
         const asin = el.id || el.getAttribute('data-asin') || '';
         const title = el.querySelector('h2')?.textContent?.trim() || '';
         const author = (el.querySelector('p')?.textContent || '')
@@ -71,9 +72,9 @@ export async function scrapeAll(storageStatePath, { headful = false, debug = fal
 
     const result = [];
     for (const b of books) {
-      const highlights = await scrapeBook(page, b.asin, debug);
+      const highlights = await scrapeBook(page, b.asin);
       result.push({ ...b, highlights });
-      if (debug) console.log(`  ${b.title}: ${highlights.length} destaques`);
+      if (debug) console.log(`  [${highlights.length}] ${b.title}`);
     }
     return result;
   } finally {
@@ -81,37 +82,54 @@ export async function scrapeAll(storageStatePath, { headful = false, debug = fal
   }
 }
 
-async function scrapeBook(page, asin, debug) {
-  // Carrega os destaques de um livro específico. O Notebook aceita ?asin= direto.
-  await page.goto(`${NOTEBOOK_URL}?asin=${encodeURIComponent(asin)}&contentLimitState=&`, {
-    waitUntil: 'domcontentloaded',
-  });
-  // [SEL] container das anotações
-  await page.waitForSelector('#kp-notebook-annotations, .kp-notebook-annotation-container', { timeout: 15000 }).catch(() => {});
+async function scrapeBook(page, asin) {
+  // Selecionar o livro dispara o carregamento AJAX das anotações no painel direito.
+  // (Navegar por ?asin= NÃO popula o painel — precisa ser o clique.)
+  await page.evaluate((id) => {
+    const el = document.getElementById(id);
+    (el?.querySelector('a') || el)?.click();
+  }, asin);
 
-  return await page.$$eval('.kp-notebook-highlight, #highlight', (nodes) => {
-    // Cada destaque vive num "row"; subimos até o container e lemos header/nota.
-    const seen = new Set();
+  // Espera o painel refletir este livro (ou um estado vazio) e carrega tudo via scroll.
+  await page.waitForTimeout(1200);
+  await loadAllAnnotations(page);
+
+  return await page.evaluate(() => {
+    // Âncora confiável: um <input id="kp-annotation-location"> por destaque.
+    const inputs = [...document.querySelectorAll('input[id="kp-annotation-location"]')];
     const out = [];
-    for (const hlNode of nodes) {
-      const row = hlNode.closest('.a-row, .kp-notebook-annotation-container') || hlNode.parentElement;
-      if (!row || seen.has(row)) continue;
-      seen.add(row);
+    for (const inp of inputs) {
+      // Sobe até o container da anotação (o primeiro ancestral que contém o texto).
+      let c = inp.parentElement;
+      while (c && !c.querySelector('[id="highlight"]')) c = c.parentElement;
+      if (!c) continue;
 
-      const text = (row.querySelector('#highlight, .kp-notebook-highlight')?.textContent || '').trim();
-      if (!text) continue;
+      const text = (c.querySelector('[id="highlight"]')?.textContent || '').trim();
+      if (!text) continue; // nota órfã, sem destaque associado
 
-      const header = (row.querySelector('#annotationHighlightHeader, .kp-notebook-annotation-header')?.textContent || '');
-      const locMatch = header.match(/(?:Location|Localização|Página|Page)[:\s]*([\d.,]+)/i);
-      const loc = locMatch ? Number(locMatch[1].replace(/[.,]/g, '')) : null;
-
-      const note = (row.querySelector('#note, .kp-notebook-note')?.textContent || '').trim() || null;
-
-      if (loc == null) continue; // sem location não há chave estável → ignora
+      const note = (c.querySelector('[id="note"]')?.textContent || '').trim() || null;
+      const loc = Number(String(inp.value).replace(/[.,]/g, ''));
+      if (!Number.isFinite(loc)) continue;
       out.push({ loc, text, note, kdate: null });
     }
     return out;
   });
+}
+
+// O Notebook carrega os destaques por scroll infinito; rola até estabilizar.
+async function loadAllAnnotations(page) {
+  let prev = -1;
+  for (let i = 0; i < 40; i++) {
+    const n = await page.locator('input[id="kp-annotation-location"]').count();
+    if (n === prev) break;
+    prev = n;
+    await page.evaluate(() => {
+      const pane = document.querySelector('#kp-notebook-annotations') || document.body;
+      pane.scrollTop = pane.scrollHeight;
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+    await page.waitForTimeout(700);
+  }
 }
 
 function waitForEnter() {
