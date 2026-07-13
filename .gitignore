@@ -1,5 +1,13 @@
 node_modules/
+
 # Estado de sessão da Amazon (cookies) — NUNCA versionar
 auth/storageState.json
 auth/*.json
+
+# Marcações pessoais — NÃO versionar enquanto o repo for público.
+# (Ver README: para ter histórico via git, torne o repo privado e remova estas linhas.)
+library/*.md
+library/.obsidian/
+debug/dump.html
+
 *.log
