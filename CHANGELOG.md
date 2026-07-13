@@ -16,8 +16,9 @@ projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ### Adicionado
 - `debug/inspect.mjs`: inspeciona o DOM real do Notebook para depurar seletores.
-- `.gitignore`: `library/*.md`, `library/.obsidian/` e `debug/dump.html` — as
-  marcações pessoais não são versionadas enquanto o repositório for público.
+- `debug/dump.html` no `.gitignore` (artefato bruto de inspeção); `library/.obsidian/`
+  ignorado (estado local do editor).
+- Primeiro acervo versionado: 30 livros, 840 destaques em `library/`.
 
 ### Planejado
 - Skill/script `kindle-to-scholion`: publica quotes de `recent` como notas de citação.

@@ -4,9 +4,7 @@ node_modules/
 auth/storageState.json
 auth/*.json
 
-# Marcações pessoais — NÃO versionar enquanto o repo for público.
-# (Ver README: para ter histórico via git, torne o repo privado e remova estas linhas.)
-library/*.md
+# Estado local do Obsidian e artefatos de debug (não têm valor no repo)
 library/.obsidian/
 debug/dump.html
 
