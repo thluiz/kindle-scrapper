@@ -6,6 +6,14 @@ $OutputEncoding = [Text.Encoding]::UTF8
 $repo = 'E:\kindle-scrapper'
 Set-Location $repo
 
+# O node é gerenciado pelo fnm, que injeta o PATH via hook do profile.
+# A task roda com -NoProfile, então o node não fica disponível. Inicializa
+# o env do fnm manualmente aqui (fnm está no PATH persistente do usuário).
+if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
+  $fnm = Get-Command fnm -ErrorAction SilentlyContinue
+  if ($fnm) { & $fnm.Source env --use-on-cd | Out-String | Invoke-Expression }
+}
+
 $logFile = Join-Path $repo 'daily-sync.log'
 function Log($m) {
   "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')  $m" | Tee-Object -FilePath $logFile -Append | Out-Null
