@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 43
-updated: 2026-07-13
+highlights: 55
+updated: 2026-11-02
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -156,6 +156,14 @@ updated: 2026-07-13
 > — loc. 658
 <!-- kh loc=658 added=2026-07-13 -->
 
+> agatão: Que é isso, Sócrates? Certamente você não supõe que eu esteja enfeitiçado pelo teatro a ponto de ignorar que para um homem sensato um pequeno número de sábios impõe maior respeito que uma multidão de ignorantes. sócrates: Realmente, Agatão, eu não faria bem em formar uma opinião depreciativa a seu respeito; bem sei que, caso você se encontrasse com pessoas sábias, você se preocuparia mais com o que elas pensam do que com a multidão. platão (século iv a.c.)
+> — loc. 705
+<!-- kh loc=705 added=2026-11-02 -->
+
+> O homem magnânimo deseja ocupar-se de apenas poucas coisas, e estas têm de ser verdadeiramente grandes a seus próprios olhos, e não porque outros assim pensem. Para o homem dotado de uma alma grande, a opinião solitária de um único homem bom conta mais que a opinião de uma multidão. Foi o que disse Antífon, após a sua condenação, quando Agatão o cumprimentou pelo brilho de sua autodefesa. aristóteles (século iv a.c.)
+> — loc. 710
+<!-- kh loc=710 added=2026-11-02 -->
+
 > Para um homem verdadeiramente sábio, a aprovação judiciosa e ponderada de um único sábio proporciona mais satisfação sincera do que todos os ruidosos aplausos de dez mil admiradores ignorantes, ainda que entusiásticos. adam smith (1759)
 > — loc. 724
 <!-- kh loc=724 added=2026-07-13 -->
@@ -176,6 +184,46 @@ updated: 2026-07-13
 > — loc. 766
 <!-- kh loc=766 added=2026-07-13 -->
 
+> Dada a natureza competitiva das vendas no mercado, o público é necessariamente o juiz dos produtos do trabalho. Mas o público não dispõe de nenhum conhecimento especializado particular e julga de acordo com a aparência de qualidade. Como resultado, a arte de produzir aparências (e talvez o gosto) está fadada a avançar sob o domínio do mercado competitivo, enquanto a qualidade dos produtos declina. nietzsche (1886)
+> — loc. 774
+<!-- kh loc=774 added=2026-11-02 -->
+
 > Se é arte, não é para todos; e, se é para todos, não é arte. arnold schoenberg (sem data)
 > — loc. 778
 <!-- kh loc=778 added=2026-07-13 -->
+
+> No coito, o homem se rebaixa ao nível do animal, não porque tem prazer, mas porque obedece ao instinto de reprodução. Existe um meio de escapar a esse triste destino. É a filosofia. Se a maioria dos filósofos era solteira, foi para testemunhar que o fim último da humanidade não é reproduzir-se. Nós não somos cães, não somos paramécios, não somos coelhos. A filosofia é a afirmação de que existe uma maneira não sexual de se perpetuar. As heranças filosóficas dispensam os genes. jean-baptiste botul/pagès (1999)
+> — loc. 822
+<!-- kh loc=822 added=2026-11-02 -->
+
+> Não há consolo mais refinado na velhice do que a sensação de ter concentrado toda a força de nossa juventude em obras que jamais envelhecerão. schopenhauer (1851)
+> — loc. 891
+<!-- kh loc=891 added=2026-11-02 -->
+
+> O pensador ou artista que guardou o melhor de si em suas obras sente uma alegria quase maldosa ao olhar seu corpo e seu espírito sendo alquebrados e destruídos pelo tempo, como se de um canto observasse um ladrão a arrombar seu cofre, sabendo que ele está vazio e que os tesouros estão salvos. nietzsche (1878)
+> — loc. 893
+<!-- kh loc=893 added=2026-11-02 -->
+
+> O corpo de Benjamin Franklin, gráfico, como a capa de um velho livro, com o miolo desfolhado e o título esgarçado, jaz aqui, alimento para os vermes. A obra, porém, não será perdida, pois reaparecerá em nova e mais elegante edição, corrigida e aprimorada pelo autor. benjamin franklin (1790)
+> — loc. 905
+<!-- kh loc=905 added=2026-11-02 -->
+
+> A morte é, com freqüência, um bom passo na carreira para um autor. nassim taleb (2007)
+> — loc. 941
+<!-- kh loc=941 added=2026-11-02 -->
+
+> A posteridade está para o filósofo assim como o outro mundo está para o religioso. diderot (1765)
+> — loc. 946
+<!-- kh loc=946 added=2026-11-02 -->
+
+> Devo ensinar-lhe, Tzu-lu, no que consiste o conhecimento? Quando você sabe alguma coisa, reconhecer que sabe; e, quando você não sabe alguma coisa, reconhecer que não sabe. Isso é conhecimento. confúcio (século iv a.c.)
+> — loc. 961
+<!-- kh loc=961 added=2026-11-02 -->
+
+> Depois da catástrofe da Primeira Guerra Mundial, evaporou-se o sonho de que algum dia os seres humanos saberiam tudo o que necessitam saber e a certeza substituiria a incerteza. Ao contrário, a explosão de conhecimento ao longo dos anos tem servido apenas para tornar a vida mais incerta e o mundo mais difícil de ser compreendido. peter bernstein (1996)
+> — loc. 1030
+<!-- kh loc=1030 added=2026-11-02 -->
+
+> Um homem não sente dificuldade em caminhar por uma tábua enquanto acredita que ela está apoiada no solo; mas ele vacila — e afinal despenca — ao se dar conta de que a tábua está suspensa sobre um abismo. avicena (século xi d.c.)
+> — loc. 1034
+<!-- kh loc=1034 added=2026-11-02 -->

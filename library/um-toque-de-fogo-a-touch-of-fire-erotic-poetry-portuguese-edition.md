@@ -3,7 +3,7 @@ title: "Um Toque de Fogo: A Touch of Fire - erotic poetry (Portuguese Edition)"
 author: Lilian Maial
 asin: B00GSZU57Y
 highlights: 4
-updated: 2026-07-13
+updated: 2026-11-02
 ---
 # Um Toque de Fogo: A Touch of Fire - erotic poetry (Portuguese Edition)
 *Lilian Maial*

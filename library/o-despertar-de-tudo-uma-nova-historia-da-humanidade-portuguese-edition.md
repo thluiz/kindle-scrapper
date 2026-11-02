@@ -3,7 +3,7 @@ title: "O despertar de tudo: Uma nova história da humanidade (Portuguese Editio
 author: David Graeber, David Wengrow, Claudio Marcondes, and Denise Bottmann
 asin: B0B4362GDM
 highlights: 74
-updated: 2026-07-13
+updated: 2026-11-02
 ---
 # O despertar de tudo: Uma nova história da humanidade (Portuguese Edition)
 *David Graeber, David Wengrow, Claudio Marcondes, and Denise Bottmann*

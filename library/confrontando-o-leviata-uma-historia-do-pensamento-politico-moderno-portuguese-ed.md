@@ -3,7 +3,7 @@ title: "Confrontando o Leviatã: Uma história do pensamento político moderno (
 author: David Runciman, Laurindo Feliciano, and Christian Schwartz
 asin: B0CBQT5SY2
 highlights: 124
-updated: 2026-07-13
+updated: 2026-11-02
 ---
 # Confrontando o Leviatã: Uma história do pensamento político moderno (Portuguese Edition)
 *David Runciman, Laurindo Feliciano, and Christian Schwartz*
