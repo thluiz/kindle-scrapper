@@ -3,7 +3,7 @@ title: "Nexus: Uma breve história das redes de informação, da Idade da Pedra 
 author: Yuval Noah Harari, Berilo Vargas, and Denise Bottmann
 asin: B0D75X4TMX
 highlights: 17
-updated: 2026-07-13
+updated: 2026-11-02
 ---
 # Nexus: Uma breve história das redes de informação, da Idade da Pedra à inteligência artificial (Portuguese Edition)
 *Yuval Noah Harari, Berilo Vargas, and Denise Bottmann*

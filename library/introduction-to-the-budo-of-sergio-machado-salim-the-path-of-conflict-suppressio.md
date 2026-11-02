@@ -3,7 +3,7 @@ title: "Introduction to The Budo of Sérgio Machado Salim: The Path of Conflict 
 author: Sérgio Machado Salim and Franco Satta
 asin: B0852R4CG7
 highlights: 28
-updated: 2026-07-13
+updated: 2026-11-02
 ---
 # Introduction to The Budo of Sérgio Machado Salim: The Path of Conflict Suppression And Its Application to Daily Life
 *Sérgio Machado Salim and Franco Satta*
