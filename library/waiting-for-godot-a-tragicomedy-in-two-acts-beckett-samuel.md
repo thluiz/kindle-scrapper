@@ -3,7 +3,7 @@ title: "Waiting for Godot: A Tragicomedy in Two Acts (Beckett, Samuel)"
 author: Samuel Beckett
 asin: B008UX3QU0
 highlights: 29
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # Waiting for Godot: A Tragicomedy in Two Acts (Beckett, Samuel)
 *Samuel Beckett*

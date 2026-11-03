@@ -3,7 +3,7 @@ title: "A carta de suicídio: Não esta tudo bem, mas vai ficar... (Portuguese E
 author: Arthur  Torres
 asin: B08H7RM593
 highlights: 35
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # A carta de suicídio: Não esta tudo bem, mas vai ficar... (Portuguese Edition)
 *Arthur  Torres*

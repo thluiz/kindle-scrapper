@@ -3,7 +3,7 @@ title: "Criando um Segundo Cérebro: Um método comprovado para organizar sua vi
 author: Tiago Forte and Ângelo Lessa
 asin: B0C9VSWMPL
 highlights: 3
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # Criando um Segundo Cérebro: Um método comprovado para organizar sua vida digital e desbloquear seu potencial criativo (Portuguese Edition)
 *Tiago Forte and Ângelo Lessa*

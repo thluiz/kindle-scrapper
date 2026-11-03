@@ -3,7 +3,7 @@ title: "The Urban Sketcher: Techniques for Seeing and Drawing on Location"
 author: Marc Taro Holmes
 asin: B011P6P9DU
 highlights: 1
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # The Urban Sketcher: Techniques for Seeing and Drawing on Location
 *Marc Taro Holmes*
