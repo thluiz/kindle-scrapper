@@ -3,7 +3,7 @@ title: A guerra dos tronos (As Crônicas de Gelo e Fogo Livro 1) (Portuguese Edi
 author: George R. R. Martin and Jorge Candeias
 asin: B07PPB9QW1
 highlights: 49
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # A guerra dos tronos (As Crônicas de Gelo e Fogo Livro 1) (Portuguese Edition)
 *George R. R. Martin and Jorge Candeias*

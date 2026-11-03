@@ -3,7 +3,7 @@ title: "Systems Thinking Made Simple: New Hope for Solving Wicked Problems [seco
 author: Derek Cabrera and Laura Cabrera
 asin: B07G83X44R
 highlights: 16
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # Systems Thinking Made Simple: New Hope for Solving Wicked Problems [second edition]
 *Derek Cabrera and Laura Cabrera*

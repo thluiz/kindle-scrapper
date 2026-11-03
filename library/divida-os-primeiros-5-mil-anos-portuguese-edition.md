@@ -3,7 +3,7 @@ title: "Dívida: Os primeiros 5 mil anos (Portuguese Edition)"
 author: David Graeber, Bloco Gráfico, Rogério Bettoni, and Thomas Piketty
 asin: B0CHX9HVNT
 highlights: 14
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # Dívida: Os primeiros 5 mil anos (Portuguese Edition)
 *David Graeber, Bloco Gráfico, Rogério Bettoni, and Thomas Piketty*

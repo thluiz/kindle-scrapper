@@ -3,7 +3,7 @@ title: "História da China: O retrato de uma civlilização e de seu povo (Portu
 author: Michael Wood
 asin: B0B8B915JD
 highlights: 3
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # História da China: O retrato de uma civlilização e de seu povo (Portuguese Edition)
 *Michael Wood*

@@ -3,7 +3,7 @@ title: Notes on Suicide
 author: Simon Critchley and Hume David
 asin: B08GWPWGQT
 highlights: 142
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # Notes on Suicide
 *Simon Critchley and Hume David*

@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 55
-updated: 2026-11-02
+highlights: 70
+updated: 2026-11-03
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -227,3 +227,63 @@ updated: 2026-11-02
 > Um homem não sente dificuldade em caminhar por uma tábua enquanto acredita que ela está apoiada no solo; mas ele vacila — e afinal despenca — ao se dar conta de que a tábua está suspensa sobre um abismo. avicena (século xi d.c.)
 > — loc. 1034
 <!-- kh loc=1034 added=2026-11-02 -->
+
+> Aprendi sobretudo a desconfiar das emoções de modo que hoje, se alguma coisa se afina com os meus sentimentos, isso só me desperta desconfiança e me faz procurar argumentos contrários de forma mais cuidadosa do que faria se se tratasse de algo contrário aos meus sentimentos. vilfredo pareto (1907)*
+> — loc. 1079
+<!-- kh loc=1079 added=2026-11-03 -->
+
+> Você não conseguirá pensar decentemente se não quiser ferir-se a si próprio. wittgenstein (1944)**
+> — loc. 1095
+<!-- kh loc=1095 added=2026-11-03 -->
+
+> Considero essencial à honestidade que se procurem os melhores argumentos contrários à posição que se está sustentando. kenneth arrow (1992)
+> — loc. 1098
+<!-- kh loc=1098 added=2026-11-03 -->
+
+> Creio que nenhuma outra qualidade pode contribuir tanto para fazer um bom escritor quanto o poder de rejeitar os próprios pensamentos. […] Por aquilo que publiquei, posso esperar apenas ser perdoado; mas, por aquilo que atirei às chamas, mereço ser aplaudido. alexander pope (1716)
+> — loc. 1100
+<!-- kh loc=1100 added=2026-11-03 -->
+
+> Após toda uma vida na condição de observador de jovens adultos que freqüentam a universidade, estou convencido de que um conhecimento modesto é tudo o que é preciso, ou mesmo compatível com opiniões políticas fortes. george stigler (1988)
+> — loc. 1103
+<!-- kh loc=1103 added=2026-11-03 -->
+
+> Nenhuma opinião deveria ser defendida com fervor. Ninguém mantém fervorosamente que 7 × 8 = 56, pois se pode mostrar que esse é o caso. O fervor apenas se faz necessário quando se trata de sustentar uma opinião que é duvidosa ou demonstravelmente falsa. bertrand russell (1958)
+> — loc. 1106
+<!-- kh loc=1106 added=2026-11-03 -->
+
+> A ignorância produz atrevimento; a reflexão, vagar. péricles (século v a.c.)
+> — loc. 1109
+<!-- kh loc=1109 added=2026-11-03 -->
+
+> Nada se pode dizer de tão absurdo que já não tenha sido dito por algum filósofo. cícero (século i a.c.)
+> — loc. 1142
+<!-- kh loc=1142 added=2026-11-03 -->
+
+> Digo o mesmo sobre a filosofia. Ela tem tantas faces, tanta variedade e tem sido tão falastrona que todos os nossos delírios e sonhos podem ser encontrados nela. A fantasia humana nada mais pode conceber de bom ou de mau que lá não se possa achar. “Nada se pode dizer de tão absurdo que já não tenha sido dito por algum filósofo.” Isso me dá maior liberdade ainda para tornar públicos os meus devaneios. Embora eu saiba que eles emanaram de mim, e não de modelos alheios, sempre se poderá encontrar um ou outro autor antigo cujas fantasias são semelhantes às minhas. E sempre haverá alguém para dizer: “Vejam aqui, eis de onde ele as tirou”. montaigne (1592)
+> — loc. 1144
+<!-- kh loc=1144 added=2026-11-03 -->
+
+> Estamos em dívida para com os [filósofos] antigos por haverem esgotado quase todas as teorias falsas que se poderiam elaborar. fontenelle (1688)
+> — loc. 1153
+<!-- kh loc=1153 added=2026-11-03 -->
+
+> Não existe coisa alguma tão absurda, diz Cícero, que não tenha algumas vezes sido afirmada por alguns filósofos. adam smith (1776)
+> — loc. 1155
+<!-- kh loc=1155 added=2026-11-03 -->
+
+> Não existe absurdo que não encontre o seu porta-voz. f. w. j. schelling (1809)
+> — loc. 1158
+<!-- kh loc=1158 added=2026-11-03 -->
+
+> A astronomia nasceu da superstição; a retórica, da ambição, do ódio, da adulação, da mentira; a geometria, da ganância; a física, da curiosidade vã; e todas elas, mesmo a ética, do orgulho humano. As artes e as ciências devem portanto o seu nascimento aos nossos vícios, e nós deveríamos duvidar menos de suas vantagens se elas se originassem das nossas virtudes. [...] Quantos perigos! Quantos caminhos equivocados na investigação das ciências? Em meio a quantos erros, milhares de vezes mais perigosos do que a verdade é útil, não é preciso abrir caminho a fim de alcançá-la? O problema é patente; pois a falsidade admite um número infinito de combinações; mas a verdade possui apenas um modo de ser. rousseau (1750)
+> — loc. 1182
+<!-- kh loc=1182 added=2026-11-03 -->
+
+> A verdade é una; o erro, múltiplo. Não é por acaso que a direita professa o pluralismo. simone de beauvoir (1955)
+> — loc. 1189
+<!-- kh loc=1189 added=2026-11-03 -->
+
+> Uma pessoa comum maravilha-se com coisas incomuns; um sábio maravilha-se com o corriqueiro. confúcio (século iv a.c.)
+> — loc. 1210
+<!-- kh loc=1210 added=2026-11-03 -->

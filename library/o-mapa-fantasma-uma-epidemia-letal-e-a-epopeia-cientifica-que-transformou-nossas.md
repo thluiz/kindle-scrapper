@@ -3,7 +3,7 @@ title: "O mapa fantasma: Uma epidemia letal e a epopeia científica que transfor
 author: Steven Johnson and Sérgio Lopes
 asin: B008PD70XO
 highlights: 1
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # O mapa fantasma: Uma epidemia letal e a epopeia científica que transformou nossas cidades (Portuguese Edition)
 *Steven Johnson and Sérgio Lopes*
