@@ -3,6 +3,9 @@
 # Registrado como task \Claude\KindleDaily. Notifica via GossipGate.
 $ErrorActionPreference = 'Stop'
 $OutputEncoding = [Text.Encoding]::UTF8
+# Sem isto o pwsh decodifica o stdout do node na codepage do console
+# (Não → N├úo) e a detecção de sessão expirada nunca casava.
+[Console]::OutputEncoding = [Text.Encoding]::UTF8
 $repo = 'E:\kindle-scrapper'
 Set-Location $repo
 
@@ -30,12 +33,21 @@ function Notify($msg) {
 try {
   Log '=== Iniciando sync ==='
   $out = (& node bin/kindle.js sync 2>&1 | Out-String)
+  $nodeExit = $LASTEXITCODE
   Log $out
 
   # Sessão da Amazon expirou? Avisa e sai — precisa de login interativo.
-  if ($out -match 'Sess.o n.o encontrada|Sess.o expirou|Não achei a lista') {
+  # Regex só com ASCII para não depender de encoding.
+  if ($out -match 'encontrada|expirou|achei a lista|kindle login') {
     Notify "⚠️ Kindle: sessão da Amazon expirou. Rode ``node bin/kindle.js login`` no Hermes-PT."
     Log 'Sessão expirou — abortando.'
+    exit 1
+  }
+  # Qualquer outra falha do node também precisa avisar, nunca cair em "sem novidades".
+  if ($nodeExit -ne 0) {
+    $last = ($out.Trim() -split "`n" | Select-Object -Last 1)
+    Notify "❌ Kindle sync falhou (exit $nodeExit): $last"
+    Log "node saiu com $nodeExit — abortando."
     exit 1
   }
 

@@ -57,6 +57,10 @@ export async function scrapeAll(storageStatePath, { headful = false, debug = fal
       throw new Error('Não achei a lista de livros. Sessão expirou? Rode: kindle login');
     });
 
+    // Sessão válida: regrava o storageState para renovar os cookies rotativos
+    // da Amazon e esticar a vida útil da sessão entre logins.
+    await context.storageState({ path: storageStatePath });
+
     const books = await page.$$eval(libSel, (els) =>
       els.map((el) => {
         // O id do elemento da biblioteca É o ASIN.
