@@ -3,7 +3,7 @@ title: Por uma moral da ambiguidade (Portuguese Edition)
 author: Simone de Beauvoir, Marcelo Jacques de Moraes, and Carolina Parreiras
 asin: B0D4MKRFMS
 highlights: 4
-updated: 2026-11-03
+updated: 2026-11-12
 ---
 # Por uma moral da ambiguidade (Portuguese Edition)
 *Simone de Beauvoir, Marcelo Jacques de Moraes, and Carolina Parreiras*

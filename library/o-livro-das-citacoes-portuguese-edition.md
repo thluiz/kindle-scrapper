@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 70
-updated: 2026-11-03
+highlights: 71
+updated: 2026-11-12
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -287,3 +287,7 @@ updated: 2026-11-03
 > Uma pessoa comum maravilha-se com coisas incomuns; um sábio maravilha-se com o corriqueiro. confúcio (século iv a.c.)
 > — loc. 1210
 <!-- kh loc=1210 added=2026-11-03 -->
+
+> É devido ao seu assombro que os homens principiam a filosofar. Eles se assombraram originalmente diante das dificuldades óbvias, e então avançaram pouco a pouco e formularam dificuldades acerca das grandes questões, como, por exemplo, os fenômenos da Lua, do Sol e das estrelas e o surgimento do universo. Um homem que está intrigado e sob o efeito do assombro se considera ignorante (daí que o amante dos mitos é de certo modo um amante da sabedoria, pois o mito é constituído de assombros); portanto, dado que a filosofia era praticada tendo em vista escapar de uma condição de ignorância, eles perseguiam a ciência com o intuito de conhecer, e não para alcançar qualquer fim utilitário. Isso é confirmado pelos fatos, pois foi só a partir do momento em que quase todas as coisas necessárias à vida e promotoras do conforto e da recreação já se faziam presentes que tal conhecimento começou a ser buscado. aristóteles (século iv a.c.)
+> — loc. 1212
+<!-- kh loc=1212 added=2026-11-12 -->
