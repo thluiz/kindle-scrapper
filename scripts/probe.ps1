@@ -23,11 +23,26 @@ function Notify($msg) {
   } catch { Log "Falha ao notificar: $($_.Exception.Message)" }
 }
 
-$state = if (Test-Path $stateFile) { Get-Content -Raw $stateFile | ConvertFrom-Json -AsHashtable } else { @{} }
-$out = (& node bin/kindle.js check 2>&1 | Out-String).Trim()
-$code = $LASTEXITCODE
+$state = @{}
+try { if (Test-Path $stateFile) { $state = Get-Content -Raw $stateFile | ConvertFrom-Json -AsHashtable } } catch { }
+try {
+  $out = (& node bin/kindle.js check 2>&1 | Out-String).Trim()
+  $code = $LASTEXITCODE
+} catch { $out = "ERRO: $($_.Exception.Message)"; $code = 1 }
 $now = Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'
 Log "exit=$code $out"
+
+if ($code -ne 0 -and $code -ne 3) {
+  # Falha da própria sonda (rede, navegador, node): avisa uma vez a partir da 3ª seguida.
+  $state.failStreak = [int]$state.failStreak + 1
+  if ($state.failStreak -eq 3) {
+    $ultima = ($out -split "`n" | Select-Object -Last 1)
+    Notify "❌ Kindle: a sonda da sessão falhou 3 vezes seguidas (não é sessão expirada). Última: $ultima. Log: E:\kindle-scrapper\session-probe.log"
+  }
+} else {
+  if ([int]$state.failStreak -ge 3) { Notify '✅ Kindle: a sonda da sessão voltou a funcionar.' }
+  $state.failStreak = 0
+}
 
 if ($code -eq 0) {
   if (-not $state.firstOk -or $state.expired) { $state.firstOk = $now }
@@ -40,7 +55,5 @@ if ($code -eq 0) {
       "a Amazon $tela. Para logar e já importar: E:\kindle-scrapper\login.cmd")
     $state.expired = $true; $state.expiredAt = $now
   }
-} else {
-  Log 'sonda falhou (não é sessão expirada); nada a avisar'
 }
 $state | ConvertTo-Json | Set-Content -Encoding UTF8 $stateFile
