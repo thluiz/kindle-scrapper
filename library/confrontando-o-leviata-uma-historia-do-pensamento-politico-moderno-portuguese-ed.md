@@ -2,8 +2,8 @@
 title: "Confrontando o Leviatã: Uma história do pensamento político moderno (Portuguese Edition)"
 author: David Runciman, Laurindo Feliciano, and Christian Schwartz
 asin: B0CBQT5SY2
-highlights: 97
-updated: 2026-11-12
+highlights: 124
+updated: 2026-11-15
 ---
 # Confrontando o Leviatã: Uma história do pensamento político moderno (Portuguese Edition)
 *David Runciman, Laurindo Feliciano, and Christian Schwartz*
@@ -395,3 +395,111 @@ updated: 2026-11-12
 > Em vez de revoltas e tentativas de derrubar todas as barreiras frustrantes que impedem a maioria de conseguir o que quer, há uma espécie de desaprovação recriminatória dos que se destacam, dos excêntricos, dos não conformistas.
 > — loc. 1328
 <!-- kh loc=1328 added=2026-07-13 -->
+
+> A política do caos democrático nunca fica muito longe da política do nojo.
+> — loc. 1341
+<!-- kh loc=1341 added=2026-11-15 -->
+
+> Um povo passivo e conformista cai vítima de verdadeiros tiranos, de políticos eleitos que exploram sua passividade, que lhe oferecem mentiras confortáveis e que canalizam uma desaprovação recriminatória a propósitos que, no fim, minam a democracia.
+> — loc. 1345
+<!-- kh loc=1345 added=2026-11-15 -->
+
+> A modernidade é diferente do que veio antes porque vai descartando as hierarquias tradicionais de forma gradual e progressiva. E as substitui por novas hierarquias, inclusive por aquela que põe a maioria e seus representantes no topo. Mas todas as velhas hierarquias perdem pouco a pouco o controle.
+> — loc. 1381
+<!-- kh loc=1381 added=2026-11-15 -->
+
+> duas formas de política apenas: uma representada pelos Estados Unidos da América, a outra, pela Rússia.
+> — loc. 1387
+<!-- kh loc=1387 added=2026-11-15 -->
+
+> Ele falava da Rússia de seu tempo: uma sociedade autocrática, muito mais hierárquica do que a americana, mais até do que a britânica ou a francesa, mas um Estado poderoso, com uma extensão geográfica capaz de mantê-lo livre das mesquinhas rivalidades europeias.
+> — loc. 1388
+<!-- kh loc=1388 added=2026-11-15 -->
+
+> A América e a Rússia acabariam por se confrontar como visões rivais de como organizar o mundo na era moderna.
+> — loc. 1390
+<!-- kh loc=1390 added=2026-11-15 -->
+
+> no fim do século XX, parecia que a democracia americana era de fato providencial, parte dos planos de Deus para o universo. “Tentar deter a democracia”, escreveu Tocqueville na introdução a Da democracia na América, “seria então como lutar contra o próprio Deus […].”[24]
+> — loc. 1397
+<!-- kh loc=1397 added=2026-11-15 -->
+
+> Se Hobbes estivesse vivo hoje e pudesse ver o que acontece em nosso mundo, e se pedíssemos a ele que identificasse a maior ameaça atual ao Estado soberano, ele talvez dissesse que são aqueles inimigos tradicionais da ordem: violência, terrorismo, guerra, doença. Ou talvez respondesse que é o bitcoin. Os Estados modernos sempre foram administradores ciosos da emissão de moeda. As criptomoedas têm o potencial de mudar tudo isso.
+> — loc. 1435
+<!-- kh loc=1435 added=2026-11-15 -->
+
+> se alguém deve ao banco 100 mil libras, o banco tem poder sobre essa pessoa; se deve 100 milhões, é ela quem tem poder sobre o banco.
+> — loc. 1444
+<!-- kh loc=1444 added=2026-11-15 -->
+
+> Os Estados modernos, Constant sabia, sempre sustentaram enormes dívidas, inclusive junto a seus próprios cidadãos. São tomadores de dinheiro inveterados. Se o Estado deve dinheiro a seus cidadãos, quem de fato tem o poder? Essa é uma das questões essenciais da política moderna.
+> — loc. 1445
+<!-- kh loc=1445 added=2026-11-15 -->
+
+> Para Hobbes, o problema que se apresentava à política era o de interromper os intermináveis giros da roda, a constante interpelação sobre de que lado estamos, dependendo de quem fica por cima e de quem fica por baixo a cada giro. A solução para o problema da revolução é o estabelecimento de um Estado soberano moderno, que transcende essas escolhas.
+> — loc. 1475
+<!-- kh loc=1475 added=2026-11-15 -->
+
+> A revolução é o problema; a política é a solução. Para Marx e Engels, a política — a política do moderno Estado soberano — é o problema. A revolução é a solução.
+> — loc. 1477
+<!-- kh loc=1477 added=2026-11-15 -->
+
+> No entanto, a crise final prevista no Manifesto nunca chegou, e Marx e Engels não viveram para vê-la. Pelo contrário: em 1914, suas ideias sofreram uma rejeição quase fatal, com a eclosão da Primeira Guerra Mundial e a descoberta de que, instados a fazer uma escolha, os trabalhadores do mundo não se uniram. Os trabalhadores do mundo optaram por se unir aos capitalistas em seus próprios países e abrir fogo uns contra os outros.
+> — loc. 1497
+<!-- kh loc=1497 added=2026-11-15 -->
+
+> Se há uma palavra que resume o Manifesto do Partido Comunista, tanto na forma quanto no conteúdo, é intransigência.
+> — loc. 1525
+<!-- kh loc=1525 added=2026-11-15 -->
+
+> O Estado — o Estado hobbesiano — é coercitivo e emancipador; governa tanto pelo medo quanto pela esperança; oferece a possibilidade de conforto assim como a de terror. Esse Estado — que pratica violência para salvar as pessoas da violência — é, para Marx e Engels, uma mentira.
+> — loc. 1536
+<!-- kh loc=1536 added=2026-11-15 -->
+
+> A mentira está no fato de ele não ser nada mais do que coerção, nada mais do que simples ferramenta ou instrumento para levar as pessoas a fazerem coisas contra sua vontade.
+> — loc. 1538
+<!-- kh loc=1538 added=2026-11-15 -->
+
+> a burguesia jamais poderá admitir isso — ela precisa disfarçar sua violência como se fosse outra coisa.
+> — loc. 1540
+<!-- kh loc=1540 added=2026-11-15 -->
+
+> o que a natureza intransigente do Manifesto revela é o absoluto desprezo de Marx e Engels pelos capitalistas, e particularmente por seus funcionários no Estado moderno. Não apenas por aqueles funcionários da classe intelectual — os idiotas úteis — como também por burocratas, políticos e servidores que controlam os instrumentos de coerção para os capitalistas. Se os dois autores têm desprezo total por essas pessoas, pela face humana do capitalismo, não é verdade, porém, que desprezam o próprio capitalismo: isto é, o capitalismo como sistema econômico produtivo. Longe disso. Uma das coisas de fato surpreendentes no Manifesto, para quem o lê conforme foi escrito em 1848, com agilidade e sem ideias preconcebidas, é ver o quanto Marx e Engels são fascinados pelo capitalismo. É perceber sua admiração pela força produtiva, pelas possibilidades de transformação inerentes a essa forma de organização econômica, a esse arranjo dos meios de produção. Eles se mostram francamente embasbacados pelo poder produtivo de exploração e expropriação do trabalho, pelo que o sistema foi capaz de fazer antes da revolução política a que aspiravam para derrubá-lo.
+> — loc. 1549
+<!-- kh loc=1549 added=2026-11-15 -->
+
+> Em menos de um século de dominação como classe, a burguesia criou forças produtivas mais numerosas e colossais do que todas as gerações anteriores somadas. Subjugação das forças da natureza, maquinaria, aplicação da química na indústria e na agricultura, navegação a vapor, ferrovias, o telégrafo elétrico, expansão das terras de cultivo em continentes inteiros e da navegação fluvial, populações inteiras brotadas do solo — que século anterior anteviu semelhantes forças produtivas adormecidas no regaço do trabalho social?[25]
+> — loc. 1563
+<!-- kh loc=1563 added=2026-11-15 -->
+
+> As relações burguesas de produção e circulação, as relações burguesas de propriedade, a moderna sociedade burguesa que produziu a mágica de tão poderosos meios de produção e circulação, é um feiticeiro já incapaz de dominar os poderes subterrâneos que ele próprio conjurou.[26]
+> — loc. 1573
+<!-- kh loc=1573 added=2026-11-15 -->
+
+> Os capitalistas perderam o controle sobre seu próprio truque de magia.
+> — loc. 1576
+<!-- kh loc=1576 added=2026-11-15 -->
+
+> Uma crise após outra será causada pelo fato de que o capitalismo tem mais poder do que as pessoas que o administram são capazes de controlar.
+> — loc. 1578
+<!-- kh loc=1578 added=2026-11-15 -->
+
+> Mas o que os capitalistas fazem quando a crise estoura?
+> — loc. 1587
+<!-- kh loc=1587 added=2026-11-15 -->
+
+> Há apenas duas coisas, essencialmente, que podem fazer, e ambas dependem do poder coercitivo do Estado. Podem dobrar a aposta sobre a coerção, de modo a tentar manter a ordem interna diante da crise. Em outras palavras, os capitalistas podem chamar o exército para manter os trabalhadores na linha e, caso resistam, interromper as greves pela força. Ou podem buscar outros mercados para conquistar, outros países e outros povos aos quais vender seus produtos. Isso quer dizer expandir-se para terras estrangeiras pela constituição de impérios — afinal, o que mais é uma colônia, para os capitalistas, senão o lugar onde despejar a produção excedente?
+> — loc. 1589
+<!-- kh loc=1589 added=2026-11-15 -->
+
+> Buscar mercados mais amplos, levando a um mundo mais interconectado — o que hoje poderíamos chamar de capitalismo global — significa apenas que a próxima crise será maior, que as interconexões causarão uma crise também interconectada que inevitavelmente, em algum momento, não poderá mais ser evitada nem pela força, nem pelo expansionismo.
+> — loc. 1599
+<!-- kh loc=1599 added=2026-11-15 -->
+
+> Eis os quatro blocos que constituem o marxismo, conforme descritos no Manifesto: capitalismo, crise, classe, revolução.
+> — loc. 1629
+<!-- kh loc=1629 added=2026-11-15 -->
+
+> O movimento precisa ser internacional. Foi concebido para ser um projeto internacional. O pressuposto disso é que a política seja internacionalizada. O Estado que se deve transcender, o Estado a ser superado, é o Estado-nação.
+> — loc. 1632
+<!-- kh loc=1632 added=2026-11-15 -->

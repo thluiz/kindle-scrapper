@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 71
-updated: 2026-11-12
+highlights: 96
+updated: 2026-11-15
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -291,3 +291,103 @@ updated: 2026-11-12
 > É devido ao seu assombro que os homens principiam a filosofar. Eles se assombraram originalmente diante das dificuldades óbvias, e então avançaram pouco a pouco e formularam dificuldades acerca das grandes questões, como, por exemplo, os fenômenos da Lua, do Sol e das estrelas e o surgimento do universo. Um homem que está intrigado e sob o efeito do assombro se considera ignorante (daí que o amante dos mitos é de certo modo um amante da sabedoria, pois o mito é constituído de assombros); portanto, dado que a filosofia era praticada tendo em vista escapar de uma condição de ignorância, eles perseguiam a ciência com o intuito de conhecer, e não para alcançar qualquer fim utilitário. Isso é confirmado pelos fatos, pois foi só a partir do momento em que quase todas as coisas necessárias à vida e promotoras do conforto e da recreação já se faziam presentes que tal conhecimento começou a ser buscado. aristóteles (século iv a.c.)
 > — loc. 1212
 <!-- kh loc=1212 added=2026-11-12 -->
+
+> Esta explicação eu encontrei na rua; ouvi uma pessoa comum dizer: “Ele logo viu que me conhecia” — então me perguntei: o que as pessoas de fato tomam por conhecimento? o que querem quando querem “conhecimento”? Nada além disto: algo estranho deve ser remetido a algo familiar. E nós, filósofos — temos tomado o conhecimento por algo mais que isso? O familiar é aquilo a que estamos habituados, de modo que não mais nos causa assombro ou surpresa; é o corriqueiro, alguma regra em que estamos inseridos, tudo aquilo que faz que nos sintamos em casa: — mas a nossa necessidade de conhecer não vem a ser justamente essa necessidade do familiar, a vontade de descobrir em meio a tudo o que é estranho, incomum, duvidoso algo que não mais nos inquiete? Não seria o instinto do medo o que nos impele a conhecer? E não seria o júbilo dos que atingem o conhecimento o júbilo da reconquista do sentimento de segurança? [...] “O que é familiar é conhecido”: nisso eles [os homens do conhecimento] estão de acordo. Também os mais cautelosos entre eles presumem que o familiar pode ser mais facilmente conhecido que o estranho. […] Erro dos erros! O familiar é o habitual; e aquilo a que estamos habituados é o mais difícil de “conhecer”, quer dizer, de encarar como problema, como alheio, distante, “fora de nós”. O maior grau de certeza das ciências naturais em comparação com a psicologia e a crítica dos elementos da consciência — as ciências não naturais, poderíamos talvez dizer — reside justamente no fato de tomarem o estranho por objeto, ao passo que é quase contraditório e absurdo até mesmo querer tomar o não-estranho por objeto. nietzsche (1882)
+> — loc. 1263
+<!-- kh loc=1263 added=2026-11-15 -->
+
+> Os economistas têm um modo singular de proceder. Para eles, existem só dois tipos de instituições, as artificiais e as naturais. As instituições do feudalismo são instituições artificiais, aquelas da burguesia são instituições naturais. Nisso eles se assemelham aos teólogos, que do mesmo modo estabelecem dois tipos de religião. Toda religião que não é a deles é uma invenção dos homens, ao passo que a deles é uma emanação de Deus. [...] Assim, houve história no passado, mas já não há mais. marx (1847)
+> — loc. 1290
+<!-- kh loc=1290 added=2026-11-15 -->
+
+> É preciso saber ocasionalmente perder-se quando queremos aprender algo das coisas que nós próprios não somos. nietzsche (1882)
+> — loc. 1295
+<!-- kh loc=1295 added=2026-11-15 -->
+
+> Ele é um pensador: isto é, ele sabe como tornar as coisas mais simples do que elas são. nietzsche (1882)
+> — loc. 1312
+<!-- kh loc=1312 added=2026-11-15 -->
+
+> Natura simplicitatem amat [A natureza ama a simplicidade]. kepler (1619)
+> — loc. 1316
+<!-- kh loc=1316 added=2026-11-15 -->
+
+> “O problema da filosofia”, de acordo com Platão, “é descobrir para tudo o que existe de modo condicionado um fundamento incondicionado e absoluto.” Ela procede com base na fé em que uma lei determina todos os fenômenos e que essa lei, uma vez conhecida, permite prevê-los. Tal lei, quando ocupa a mente, é uma idéia. Sua beleza é infinita. O verdadeiro filósofo e o verdadeiro poeta são um só; o belo que é verdadeiro e a verdade que é bela são as metas de ambos. Não é o encanto de uma das definições de Platão ou Aristóteles estritamente como o da Antígona de Sófocles? O que se dá nos dois casos é que à natureza foi imputada vida espiritual; um bloco de aparente matéria sólida foi permeado e dissolvido em pensamento; esse frágil ser humano penetrou nas vastas massas da natureza com uma alma formadora e se reconheceu a si próprio em sua harmonia, ou seja, domou sua lei. Na física, quando se alcança isso, a memória se desincumbe de seus onerosos catálogos de particulares e incorpora séculos inteiros de observações numa única fórmula. emerson (1876)
+> — loc. 1352
+<!-- kh loc=1352 added=2026-11-15 -->
+
+> O ensinamento dos grandes homens tem com freqüência uma simplicidade e uma naturalidade que faz o que é difícil parecer fácil de apreender. g. h. von wright (1982)
+> — loc. 1375
+<!-- kh loc=1375 added=2026-11-15 -->
+
+> Quem quer que tenha algo verdadeiro a dizer se expressa de modo simples. A simplicidade é o selo da verdade. schopenhauer (1851)
+> — loc. 1378
+<!-- kh loc=1378 added=2026-11-15 -->
+
+> Quem sabe que é profundo busca a clareza; quem deseja parecer profundo para a multidão, procura ser obscuro. Pois a multidão toma por profundo aquilo cujo fundo não vê: ela é medrosa, hesita em entrar na água. nietzsche (1882)
+> — loc. 1380
+<!-- kh loc=1380 added=2026-11-15 -->
+
+> Tudo o que pode ser dito pode ser dito claramente. wittgenstein (1922)
+> — loc. 1383
+<!-- kh loc=1383 added=2026-11-15 -->
+
+> Tudo deve ser feito tão simples quanto possível, mas não mais simples que isso. atribuído a einstein
+> — loc. 1385
+<!-- kh loc=1385 added=2026-11-15 -->
+
+> A simplicidade e a elegância jamais são razões para se pensar que uma teoria filosófica é verdadeira: ao contrário, elas normalmente são as bases para se pensar que a teoria é falsa. thomas nagel (1979)
+> — loc. 1387
+<!-- kh loc=1387 added=2026-11-15 -->
+
+> Uma das mais cativantes ironias do pensamento moderno é o fato de que o método científico, do qual ingenuamente se esperou no passado que pudesse banir o mistério do mundo, deixa-o cada dia mais inexplicável. carl becker (1932)
+> — loc. 1408
+<!-- kh loc=1408 added=2026-11-15 -->
+
+> Sentimos que, mesmo que todas as questões científicas possíveis tenham obtido resposta, nossos problemas de vida não terão sido sequer tocados. wittgenstein (1922)
+> — loc. 1432
+<!-- kh loc=1432 added=2026-11-15 -->
+
+> sócrates: Aquele que jamais procura por números em nada não será ele próprio encontrado no rol dos homens famosos. [...] Se alguém separasse a arte de contar, medir e pesar de todas as outras artes, o que restaria de cada uma delas seria, por assim dizer, insignificante. platão (século iv a.c.)
+> — loc. 1443
+<!-- kh loc=1443 added=2026-11-15 -->
+
+> Assim como o olho foi feito para ver as cores e o ouvido para escutar os sons, do mesmo modo a mente humana foi feita para entender, não o que for que se queira, mas quantidades. kepler (1619)
+> — loc. 1447
+<!-- kh loc=1447 added=2026-11-15 -->
+
+> Um único número possui um valor mais genuíno e mais duradouro do que uma rica biblioteca repleta de hipóteses. julius robert mayer (1844)
+> — loc. 1449
+<!-- kh loc=1449 added=2026-11-15 -->
+
+> A marca de uma pessoa educada é buscar tanta precisão em cada classe de coisas quanto a natureza do assunto permite. Demandar uma demonstração lógica de um orador seria tão absurdo quanto permitir a um matemático servir-se das artes da persuasão. [...] Não se pode exigir o mesmo grau de precisão em todas as discussões. aristóteles (século iv a.c.)
+> — loc. 1452
+<!-- kh loc=1452 added=2026-11-15 -->
+
+> O elegante critério físico de objetividade formulado por [Max] Planck, de que tudo o que pode ser medido existe, pode parecer completamente suficiente do ponto de vista da física; mas, do ponto de vista da epistemologia, ele envolve o problema da descoberta das condições fundamentais dessa mensurabilidade e do seu desenvolvimento sistemático completo. Pois qualquer ato de medida, mesmo o mais simples, precisa estar apoiado em certos “princípios”, “hipóteses” ou “axiomas” que ele não toma do mundo dos sentidos mas traz para esse mundo como postulados do pensamento. ernst cassirer (1921)
+> — loc. 1459
+<!-- kh loc=1459 added=2026-11-15 -->
+
+> É ilusão crer que algo é conhecido quando possuímos uma fórmula matemática para o evento: ele foi apenas designado, descrito, nada mais. nietzsche (1885)
+> — loc. 1465
+<!-- kh loc=1465 added=2026-11-15 -->
+
+> Proposições matemáticas não expressam pensamentos. Na vida, elas nunca são aquilo de que precisamos. As proposições matemáticas são usadas apenas para inferir, de proposições que não pertencem à matemática, outras que igualmente não pertencem à matemática. wittgenstein (1922)
+> — loc. 1467
+<!-- kh loc=1467 added=2026-11-15 -->
+
+> A pesquisa básica é como atirar uma seta para o ar e, depois, pintar um alvo onde quer que ela caia. h. b. adkins (1949)
+> — loc. 1471
+<!-- kh loc=1471 added=2026-11-15 -->
+
+> Se um jovem cientista que trabalha comigo me procurasse depois de dois anos de trabalho [em pesquisa] e perguntasse qual deveria ser o passo seguinte, eu o aconselharia a abandonar a ciência. Se depois de dois anos de trabalho uma pessoa não sabe o que fazer em seguida, então ela jamais se tornará um verdadeiro cientista. ernest rutherford (1937)
+> — loc. 1473
+<!-- kh loc=1473 added=2026-11-15 -->
+
+> Não existe estilo de prosa mais difícil de entender e mais tedioso de ler do que o paper científico médio. francis crick (1995)
+> — loc. 1483
+<!-- kh loc=1483 added=2026-11-15 -->
+
+> A maioria dos artigos, e provavelmente todos eles, no próximo número do journal [acadêmico] profissional não vale uma leitura cuidadosa e dispendiosa. george stigler (1969)
+> — loc. 1485
+<!-- kh loc=1485 added=2026-11-15 -->
