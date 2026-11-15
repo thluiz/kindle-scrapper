@@ -9,3 +9,10 @@ library/.obsidian/
 debug/dump.html
 
 *.log
+
+# Perfil persistente do navegador (sessão da Amazon) e trava de uso — NUNCA versionar
+auth/profile/
+auth/profile.lock
+
+# Hooks locais da máquina
+scripts/*.local.ps1

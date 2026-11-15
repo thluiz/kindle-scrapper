@@ -11,54 +11,132 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const NOTEBOOK_URL = 'https://read.amazon.com/notebook';
+const LIB_SEL = '.kp-notebook-library-each-book'; // [SEL] lista de livros na coluna esquerda
+
+// Estratégia de sessão (2026-11-15): um PERFIL de navegador persistente (auth/profile/), o mesmo no login
+// (visível) e no sync (headless). Antes, o login usava um Chromium descartável e o sync outro binário
+// (chromium_headless_shell, user agent "HeadlessChrome"), só com os cookies copiados. Para a Amazon
+// eram dois aparelhos diferentes, e a sessão caía em menos de 24h. Agora: mesmo binário (channel
+// 'chromium', headless novo), mesmo perfil (cookies + localStorage + IndexedDB) e mesmo user agent.
+// auth/storageState.json continua sendo gravado como cópia, e serve para migrar um perfil vazio.
+function paths(storageStatePath) {
+  const dir = path.dirname(storageStatePath);
+  return { dir, profile: path.join(dir, 'profile'), ua: path.join(dir, 'ua.json'), lock: path.join(dir, 'profile.lock') };
+}
+
+// Um perfil só aceita um navegador por vez (sync, sonda e login podem se cruzar no agendador).
+async function acquireLock(lock, waitMs = 10 * 60 * 1000) {
+  const t0 = Date.now();
+  for (;;) {
+    try { fs.writeFileSync(lock, String(process.pid), { flag: 'wx' }); return () => fs.rmSync(lock, { force: true }); }
+    catch (e) {
+      if (e.code !== 'EEXIST') throw e;
+      let stale = false;
+      try {
+        const pid = Number(fs.readFileSync(lock, 'utf8'));
+        try { process.kill(pid, 0); } catch { stale = true; }        // dono morreu
+        if (Date.now() - fs.statSync(lock).mtimeMs > 30 * 60 * 1000) stale = true;
+      } catch { stale = true; }
+      if (stale) { fs.rmSync(lock, { force: true }); continue; }
+      if (Date.now() - t0 > waitMs) throw new Error('Perfil do navegador ocupado por outro processo (auth/profile.lock).');
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+  }
+}
 
 export async function launch(storageStatePath, { headful = false } = {}) {
   const { chromium } = await import('playwright');
-  const browser = await chromium.launch({ headless: !headful });
-  const hasState = fs.existsSync(storageStatePath);
-  const context = await browser.newContext(
-    hasState ? { storageState: storageStatePath } : {}
-  );
-  return { browser, context };
+  const p = paths(storageStatePath);
+  const release = await acquireLock(p.lock);
+  const fresh = !fs.existsSync(path.join(p.profile, 'Default'));
+  const opts = { headless: !headful, channel: 'chromium', viewport: { width: 1280, height: 900 } };
+  if (!headful && fs.existsSync(p.ua)) opts.userAgent = JSON.parse(fs.readFileSync(p.ua, 'utf8')).userAgent;
+  let context;
+  try {
+    context = await chromium.launchPersistentContext(p.profile, opts);
+    if (!opts.userAgent && !headful) {
+      // Sem UA gravado no login: usa o do próprio binário, sem a marca "Headless".
+      const ua = (await context.newPage().then((pg) => pg.evaluate(() => navigator.userAgent))).replace('HeadlessChrome', 'Chrome');
+      await context.close();
+      context = await chromium.launchPersistentContext(p.profile, { ...opts, userAgent: ua });
+    }
+    if (fresh && fs.existsSync(storageStatePath)) {
+      // Migração: perfil novo herda os cookies da sessão salva no formato antigo.
+      const st = JSON.parse(fs.readFileSync(storageStatePath, 'utf8'));
+      await context.addCookies(st.cookies || []);
+    }
+  } catch (e) { release(); throw e; }
+  const close = async () => { try { await context.close(); } finally { release(); } };
+  return { context, close };
 }
 
-// Fluxo de login interativo: abre o browser, você loga, salvamos o cookie.
+// Fluxo de login interativo: abre o navegador (perfil persistente), você loga, e o login termina sozinho
+// quando a lista de livros aparece. ENTER também encerra a espera.
 export async function login(storageStatePath) {
-  const { chromium } = await import('playwright');
-  const browser = await chromium.launch({ headless: false });
-  const context = await browser.newContext();
-  const page = await context.newPage();
-  await page.goto(NOTEBOOK_URL, { waitUntil: 'domcontentloaded' });
+  const { context, close } = await launch(storageStatePath, { headful: true });
+  try {
+    const page = context.pages()[0] || await context.newPage();
+    await page.goto(NOTEBOOK_URL, { waitUntil: 'domcontentloaded' });
+    console.log('\n>>> Faça login na Amazon na janela do navegador (marque "Manter conectado").');
+    console.log('>>> A janela fecha sozinha quando a lista de livros aparecer.\n');
+    const ok = await Promise.race([
+      page.waitForSelector(LIB_SEL, { timeout: 15 * 60 * 1000 }).then(() => true).catch(() => false),
+      waitForEnter().then(() => page.locator(LIB_SEL).count().then((n) => n > 0)),
+    ]);
+    if (!ok) throw new Error('Login não concluído: a lista de livros não apareceu.');
+    await page.waitForTimeout(3000); // deixa a Amazon terminar de gravar cookies/localStorage
+    const userAgent = await page.evaluate(() => navigator.userAgent);
+    fs.writeFileSync(paths(storageStatePath).ua, JSON.stringify({ userAgent, saved: new Date().toISOString() }, null, 2));
+    await context.storageState({ path: storageStatePath });
+    console.log('Sessão salva no perfil persistente (auth/profile).');
+  } finally {
+    await close();
+    process.stdin.pause();
+  }
+}
 
-  console.log('\n>>> Faça login na Amazon na janela do browser (incluindo 2FA).');
-  console.log('>>> Quando a lista de livros do Notebook aparecer, volte aqui e pressione ENTER.\n');
-  await waitForEnter();
-
-  fs.mkdirSync(path.dirname(storageStatePath), { recursive: true });
-  await context.storageState({ path: storageStatePath });
-  console.log(`Sessão salva em ${storageStatePath}`);
-  await browser.close();
+// Sonda: abre o Notebook e diz se a sessão vale. Só leitura (não mexe na library).
+// -> { ok, url, books, signin, password } ; password = Amazon pedindo só a senha de novo (reautenticação).
+export async function checkSession(storageStatePath) {
+  if (!fs.existsSync(paths(storageStatePath).profile) && !fs.existsSync(storageStatePath)) {
+    return { ok: false, url: null, books: 0, signin: false, password: false, reason: 'sem sessão' };
+  }
+  const { context, close } = await launch(storageStatePath);
+  try {
+    const page = await context.newPage();
+    await page.goto(NOTEBOOK_URL, { waitUntil: 'domcontentloaded' });
+    const ok = await page.waitForSelector(LIB_SEL, { timeout: 20000 }).then(() => true).catch(() => false);
+    const r = {
+      ok,
+      url: page.url().split('?')[0],
+      books: await page.locator(LIB_SEL).count(),
+      signin: (await page.locator('form[name="signIn"], #ap_email, input[name="email"]').count()) > 0,
+      password: (await page.locator('#ap_password').count()) > 0,
+    };
+    if (ok) await context.storageState({ path: storageStatePath });
+    return r;
+  } finally {
+    await close();
+  }
 }
 
 // Extrai todos os livros + destaques. Retorna array de
 // { asin, title, author, highlights: [{loc, text, note, kdate}] }.
 export async function scrapeAll(storageStatePath, { headful = false, debug = false } = {}) {
-  if (!fs.existsSync(storageStatePath)) {
+  if (!fs.existsSync(paths(storageStatePath).profile) && !fs.existsSync(storageStatePath)) {
     throw new Error(`Sessão não encontrada (${storageStatePath}). Rode: kindle login`);
   }
-  const { browser, context } = await launch(storageStatePath, { headful });
+  const { context, close } = await launch(storageStatePath, { headful });
   try {
     const page = await context.newPage();
     await page.goto(NOTEBOOK_URL, { waitUntil: 'domcontentloaded' });
 
-    // [SEL] lista de livros na coluna esquerda
-    const libSel = '.kp-notebook-library-each-book';
+    const libSel = LIB_SEL;
     await page.waitForSelector(libSel, { timeout: 20000 }).catch(() => {
       throw new Error('Não achei a lista de livros. Sessão expirou? Rode: kindle login');
     });
 
-    // Sessão válida: regrava o storageState para renovar os cookies rotativos
-    // da Amazon e esticar a vida útil da sessão entre logins.
+    // Cópia da sessão no formato antigo (backup / migração de perfil).
     await context.storageState({ path: storageStatePath });
 
     const books = await page.$$eval(libSel, (els) =>
@@ -82,7 +160,7 @@ export async function scrapeAll(storageStatePath, { headful = false, debug = fal
     }
     return result;
   } finally {
-    await browser.close();
+    await close();
   }
 }
 

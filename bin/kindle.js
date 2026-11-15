@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 // CLI do kindle-scrapper.
-//   kindle login                    → login interativo na Amazon (salva sessão)
+//   kindle login                    → login interativo na Amazon (perfil persistente em auth/profile)
+//   kindle check                    → sonda: a sessão ainda vale? (exit 0 / 3)
 //   kindle sync [--headful] [--debug] → baixa/atualiza os .md por livro
 //   kindle recent [--since 7d] [--json]
 //   kindle book "Título" [--json]
 //   kindle list
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { login, scrapeAll } from '../src/scrape.js';
+import { login, scrapeAll, checkSession } from '../src/scrape.js';
 import { mergeBook } from '../src/merge.js';
 import { loadLibrary, recent, renderRecentMd } from '../src/query.js';
 
@@ -35,6 +36,13 @@ async function main() {
     case 'login':
       await login(STATE);
       break;
+
+    case 'check': {
+      // Sonda da sessão: exit 0 = válida, 3 = expirada. Uma linha JSON no stdout.
+      const r = await checkSession(STATE);
+      console.log(JSON.stringify(r));
+      process.exit(r.ok ? 0 : 3);
+    }
 
     case 'sync': {
       const books = await scrapeAll(STATE, { headful: flag('headful'), debug: flag('debug') });
@@ -81,7 +89,7 @@ async function main() {
     }
 
     default:
-      console.log('Uso: kindle <login|sync|recent|book|list> [opções]');
+      console.log('Uso: kindle <login|check|sync|recent|book|list> [opções]');
       console.log('  sync   [--headful] [--debug]');
       console.log('  recent [--since 7d] [--json]');
       console.log('  book   "Título" [--json]');

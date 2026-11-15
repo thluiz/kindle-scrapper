@@ -39,7 +39,7 @@ try {
   # Sessão da Amazon expirou? Avisa e sai — precisa de login interativo.
   # Regex só com ASCII para não depender de encoding.
   if ($out -match 'encontrada|expirou|achei a lista|kindle login') {
-    Notify "⚠️ Kindle: sessão da Amazon expirou. Rode ``node bin/kindle.js login`` no Hermes-PT."
+    Notify "⚠️ Kindle: sessão da Amazon expirou. Para logar e já sincronizar/importar: E:\kindle-scrapper\login.cmd"
     Log 'Sessão expirou — abortando.'
     exit 1
   }
@@ -56,19 +56,27 @@ try {
   & git diff --cached --quiet -- library
   if ($LASTEXITCODE -eq 0) {
     Log 'Sem novidades — nada a commitar.'
-    exit 0
+  } else {
+    $summary = ($out -split "`n" | Where-Object { $_ -match '^Sync:' } | Select-Object -First 1).Trim()
+    $date = Get-Date -Format 'yyyy-MM-dd'
+    & git -c user.name='Claude' -c user.email='claude@thluiz.com' commit -q -m "sync $date"
+    $push = (& git push origin main 2>&1 | Out-String)
+    Log $push
+    Notify "📖 Kindle sync ($date): $summary — publicado no git."
+    Log 'OK.'
   }
-
-  $summary = ($out -split "`n" | Where-Object { $_ -match '^Sync:' } | Select-Object -First 1).Trim()
-  $date = Get-Date -Format 'yyyy-MM-dd'
-  & git -c user.name='Claude' -c user.email='claude@thluiz.com' commit -q -m "sync $date"
-  $push = (& git push origin main 2>&1 | Out-String)
-  Log $push
-
-  Notify "📖 Kindle sync ($date): $summary — publicado no git."
-  Log 'OK.'
 } catch {
   Log "ERRO: $($_.Exception.Message)"
   Notify "❌ Kindle sync falhou: $($_.Exception.Message)"
   exit 1
 }
+
+# Pós-sync (só chega aqui com sync bem-sucedido): hook local, fora do git, que encadeia o consumidor
+# da library. No Hermes-PT, chama o import do Scholion. Roda mesmo sem novidades: retoma import que
+# tenha falhado antes. Falha do hook não muda o resultado do sync; o próprio hook avisa.
+$hook = Join-Path $PSScriptRoot 'post-sync.local.ps1'
+if (Test-Path $hook) {
+  Log 'Pós-sync: post-sync.local.ps1'
+  try { & $hook } catch { Log "Pós-sync falhou: $($_.Exception.Message)" }
+}
+exit 0
