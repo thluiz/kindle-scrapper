@@ -3,7 +3,7 @@ title: O aleph (Portuguese Edition)
 author: Jorge Luis Borges and Davi Arrigucci Jr.
 asin: B01KOZ2AF8
 highlights: 2
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 # O aleph (Portuguese Edition)
 *Jorge Luis Borges and Davi Arrigucci Jr.*
