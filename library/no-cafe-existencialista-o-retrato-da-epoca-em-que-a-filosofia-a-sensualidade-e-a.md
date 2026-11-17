@@ -3,7 +3,7 @@ title: "No café existencialista: O retrato da época em que a filosofia, a sens
 author: Sarah Bakewell and Denise Bottmann
 asin: B073JQ25SZ
 highlights: 13
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 # No café existencialista: O retrato da época em que a filosofia, a sensualidade e a rebeldia andavam juntas (Portuguese Edition)
 *Sarah Bakewell and Denise Bottmann*

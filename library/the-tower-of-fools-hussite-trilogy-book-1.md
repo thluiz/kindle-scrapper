@@ -3,7 +3,7 @@ title: The Tower of Fools (Hussite Trilogy Book 1)
 author: Andrzej Sapkowski and David French
 asin: B07ZZ7MDTY
 highlights: 13
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 # The Tower of Fools (Hussite Trilogy Book 1)
 *Andrzej Sapkowski and David French*

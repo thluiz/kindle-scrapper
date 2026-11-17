@@ -3,7 +3,7 @@ title: Quando deixamos de entender o mundo (Portuguese Edition)
 author: Benjamín Labatut, Celso Longo, and Paloma Vidal
 asin: B09S7SW4B6
 highlights: 34
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 # Quando deixamos de entender o mundo (Portuguese Edition)
 *Benjamín Labatut, Celso Longo, and Paloma Vidal*

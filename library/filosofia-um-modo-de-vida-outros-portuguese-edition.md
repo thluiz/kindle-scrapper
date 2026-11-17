@@ -3,7 +3,7 @@ title: Filosofia, um modo de vida (Outros) (Portuguese Edition)
 author: Marilena Chaui
 asin: B0FPDPB9MS
 highlights: 52
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 # Filosofia, um modo de vida (Outros) (Portuguese Edition)
 *Marilena Chaui*

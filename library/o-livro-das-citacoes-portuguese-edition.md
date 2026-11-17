@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 96
-updated: 2026-11-16
+highlights: 98
+updated: 2026-11-17
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -391,3 +391,11 @@ updated: 2026-11-16
 > A maioria dos artigos, e provavelmente todos eles, no próximo número do journal [acadêmico] profissional não vale uma leitura cuidadosa e dispendiosa. george stigler (1969)
 > — loc. 1485
 <!-- kh loc=1485 added=2026-11-15 -->
+
+> O destino usual das novas verdades é começar como heresias e terminar como superstições. t. h. huxley (1880)
+> — loc. 1497
+<!-- kh loc=1497 added=2026-11-17 -->
+
+> A verdade é o que é, e segue sendo verdade, ainda que se pense o revés. antonio machado (1917)
+> — loc. 1533
+<!-- kh loc=1533 added=2026-11-17 -->
