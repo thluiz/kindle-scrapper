@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 98
-updated: 2026-11-17
+highlights: 109
+updated: 2026-11-18
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -399,3 +399,47 @@ updated: 2026-11-17
 > A verdade é o que é, e segue sendo verdade, ainda que se pense o revés. antonio machado (1917)
 > — loc. 1533
 <!-- kh loc=1533 added=2026-11-17 -->
+
+> Existem verdades triviais e grandes verdades. O contrário de uma verdade trivial é claramente falso. O contrário de uma grande verdade é também verdadeiro. […] Uma grande verdade é uma afirmação cujo contrário é também uma grande verdade. niels bohr (1949)
+> — loc. 1537
+<!-- kh loc=1537 added=2026-11-18 -->
+
+> Em tempo de guerra, a verdade é tão preciosa que ela precisa ser guarnecida por uma escolta de mentiras. winston churchill (1916)
+> — loc. 1542
+<!-- kh loc=1542 added=2026-11-18 -->
+
+> Nada é verdadeiro na psicanálise, exceto os exageros. theodor adorno (1951)
+> — loc. 1594
+<!-- kh loc=1594 added=2026-11-18 -->
+
+> A guerra das idéias é uma invenção grega — uma das invenções mais importantes de toda a história. De fato, a possibilidade de lutar com palavras, em vez de lutar com armas, constitui o fundamento da nossa civilização — especialmente das suas instituições legais e parlamentares. […] Basta lembrar que as guerras religiosas foram guerras de idéias, assim como todas as revoluções, para sentir como as idéias adquiriram poder desde a época dos gregos. Embora essas idéias tenham sido mais freqüentemente falsas e perniciosas do que verdadeiras e benéficas, há sempre uma certa tendência para que algumas das melhores sobrevivam, desde que encontrem apoio suficientemente poderoso e inteligente. […] O poder das idéias, em especial das idéias religiosas e morais, é pelo menos tão importante quanto o dos recursos físicos. karl popper (1956)
+> — loc. 1645
+<!-- kh loc=1645 added=2026-11-18 -->
+
+> O bom senso e o inglês trivial em que ele se expressa são um repositório de filosofias mais antigas. Uma filosofia leva tempo para tornar-se parte integrante do pensamento do homem comum, mas acaba conseguindo. t. m. knox (1968)
+> — loc. 1660
+<!-- kh loc=1660 added=2026-11-18 -->
+
+> O trabalho teórico, como a cada dia mais me convenço, realiza mais no mundo do que o trabalho prático. Quando a esfera das idéias é revolucionada, a realidade existente não resiste. hegel (1808)*
+> — loc. 1673
+<!-- kh loc=1673 added=2026-11-18 -->
+
+> Lembrem-se disso, orgulhosos homens de ação. Vocês não passam de instrumentos inconscientes dos homens de pensamento que, freqüentemente, no mais modesto silêncio, predeterminam, de modo preciso, qual a sua ação. Maximilien Robespierre nada mais era do que a mão de Jean-Jacques Rousseau, mão sangrenta que tirou do seio do tempo o corpo cuja alma Rousseau criara. O medo inquieto que amargurou a vida de Jean-Jacques tem talvez sua causa no fato de ele ter pressentido qual o parteiro que traria ao mundo suas idéias. heine (1834)
+> — loc. 1677
+<!-- kh loc=1677 added=2026-11-18 -->
+
+> Há mais de cem anos, o poeta alemão Heine alertou os franceses para não subestimarem a força das idéias: os conceitos filosóficos nutridos na quietude do gabinete de um professor poderiam destruir uma civilização. Ele falou da Crítica da razão pura de Kant como a espada com que o deísmo alemão foi decapitado, e descreveu os trabalhos de Rousseau como a arma manchada de sangue que, nas mãos de Robespierre, havia destruído o Antigo Regime. […] Mas, se os professores podem verdadeiramente manejar um poder assim fatal, não será também o caso de que somente outros professores ou, ao menos, outros pensadores (e não governos ou comissões parlamentares) podem desarmá-los? Nossos filósofos parecem estranhamente inconscientes desses efeitos devastadores de suas atividades. isaiah berlin (1958)
+> — loc. 1682
+<!-- kh loc=1682 added=2026-11-18 -->
+
+> Não se pode encontrar em Hitler uma só palavra que já não houvesse sido enunciada por Nietzsche ou Bergson, Spengler ou Ortega y Gasset “num plano elevado”. Vista historicamente, a assim chamada oposição individual é irrelevante. Que importância pode ter um protesto morno e capenga vindo de Spengler contra o incêndio do mundo, quando seu próprio cigarro esteve envolvido na ignição? É absolutamente necessário, portanto, e uma tarefa central dos intelectuais progressistas desmascarar toda essa ideologia, mesmo em seus representantes “mais refinados”; mostrar como a ideologia fascista cresceu por meio de uma necessidade histórica com base nessas premissas; mostrar como de Nietzsche a Simmel, Spengler e Heidegger et alii. um caminho direto conduz a Hitler; que Bergson e Pareto, o pragmatista e o semanticista, Berdyaev e Ortega, todos de igual maneira criaram uma atmosfera intelectual da qual a fascistização da Weltanschauung pôde retirar uma rica nutrição. georg lukács (1955)
+> — loc. 1756
+<!-- kh loc=1756 added=2026-11-18 -->
+
+> Os escritos engendram uma certa disposição na alma: eles lentamente despertam os desejos e então subitamente acendem uma terrível chama da qual deveríamos, penso eu, nos manter afastados. Não dê acesso de entrada a um trabalho epicurista ou pirrônico — de fato, os deuses apropriadamente os destruíram, de modo que a maioria desses livros não se pode encontrar. imperador juliano (século iv d.c.)
+> — loc. 1787
+<!-- kh loc=1787 added=2026-11-18 -->
+
+> Mefistófeles contou a história da Criação para o dr. Fausto em seu gabinete dizendo: “Os louvores incessantes dos corais de anjos começaram a ficar tediosos. [...] Não seria mais divertido [perguntou-se o Criador] receber louvores sem merecê-los e ser venerado por seres que Ele torturava? Ele sorriu e decidiu dar início ao grande drama. Por eras incontáveis, a nebulosa incandescente girou sem rumo no espaço. Aos poucos, porém, começou a tomar forma: da massa central foram expelidos os planetas, os planetas resfriaram, mares fervilhantes e montanhas em chamas se agitaram, massas de nuvens negras despejaram torrentes de chuvas escaldantes que varreram a crosta mal solidificada. Surgiu então o primeiro germe de vida na profundeza do oceano e se desenvolveu velozmente sob o calor fecundo até formar as gigantescas árvores da floresta, as samambaias imensas que brotam dos alagadiços, os monstros marinhos que copulam, combatem e se entredevoram antes de perecer. E dos monstros, à medida que a trama se desenrola, nasce o Homem, com o poder de raciocinar, discernir entre o bem e o mal, e uma fome cruel de adorar. E o Homem viu que tudo passa nesse mundo insano e monstruoso, que tudo peleja para agarrar, a qualquer custo, breves instantes de vida antes do decreto inexorável da Morte. E o Homem disse: ‘Existe um propósito oculto, se ao menos pudéssemos detectá-lo, e o propósito é bom; pois devemos reverenciar algo e no mundo visível não há nada digno de reverência’. […] E, quando ele seguiu os instintos que Deus tinha lhe transmitido dos seus ancestrais predadores, chamou a isso de Pecado e pediu a Deus que o perdoasse. […] E ele agradeceu a Deus pela força que lhe permitiu abrir mão mesmo das alegrias que eram possíveis. E Deus sorriu; e, quando viu que o Homem havia se tornado perfeito na renúncia e na adoração, lançou aos céus outro sol, que colidiu com o Sol do homem; e tudo retornou à nebulosa. ‘Sim’, Ele murmurou, ‘foi um belo espetáculo; vou mandar que repitam.’” Tal é o mundo, em suma, mas ainda mais desprovido de propósito e mais vazio de sentido, que a ciência oferece à nossa crença. bertrand russell (1903)
+> — loc. 1838
+<!-- kh loc=1838 added=2026-11-18 -->

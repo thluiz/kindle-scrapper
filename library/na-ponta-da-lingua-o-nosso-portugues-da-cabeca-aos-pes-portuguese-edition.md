@@ -3,7 +3,7 @@ title: "Na ponta da língua: O nosso português da cabeça aos pés (Portuguese 
 author: Caetano W. Galindo and Alceu Chiesorin Nunes
 asin: B0DWV21NJV
 highlights: 54
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 # Na ponta da língua: O nosso português da cabeça aos pés (Portuguese Edition)
 *Caetano W. Galindo and Alceu Chiesorin Nunes*
