@@ -3,7 +3,7 @@ title: Sovietistão (Portuguese Edition)
 author: Erika Fatland
 asin: B08Q2DH9CY
 highlights: 8
-updated: 2026-11-18
+updated: 2026-11-19
 ---
 # Sovietistão (Portuguese Edition)
 *Erika Fatland*
