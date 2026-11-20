@@ -3,7 +3,7 @@ title: "Building a Second Brain: A Proven Method to Organise Your Digital Life a
 author: Tiago Forte
 asin: B09MDNDYYF
 highlights: 38
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 # Building a Second Brain: A Proven Method to Organise Your Digital Life and Unlock Your Creative Potential
 *Tiago Forte*
