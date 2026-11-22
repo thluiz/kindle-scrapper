@@ -2,8 +2,8 @@
 title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
-highlights: 109
-updated: 2026-11-21
+highlights: 119
+updated: 2026-11-22
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*
@@ -443,3 +443,43 @@ updated: 2026-11-21
 > Mefistófeles contou a história da Criação para o dr. Fausto em seu gabinete dizendo: “Os louvores incessantes dos corais de anjos começaram a ficar tediosos. [...] Não seria mais divertido [perguntou-se o Criador] receber louvores sem merecê-los e ser venerado por seres que Ele torturava? Ele sorriu e decidiu dar início ao grande drama. Por eras incontáveis, a nebulosa incandescente girou sem rumo no espaço. Aos poucos, porém, começou a tomar forma: da massa central foram expelidos os planetas, os planetas resfriaram, mares fervilhantes e montanhas em chamas se agitaram, massas de nuvens negras despejaram torrentes de chuvas escaldantes que varreram a crosta mal solidificada. Surgiu então o primeiro germe de vida na profundeza do oceano e se desenvolveu velozmente sob o calor fecundo até formar as gigantescas árvores da floresta, as samambaias imensas que brotam dos alagadiços, os monstros marinhos que copulam, combatem e se entredevoram antes de perecer. E dos monstros, à medida que a trama se desenrola, nasce o Homem, com o poder de raciocinar, discernir entre o bem e o mal, e uma fome cruel de adorar. E o Homem viu que tudo passa nesse mundo insano e monstruoso, que tudo peleja para agarrar, a qualquer custo, breves instantes de vida antes do decreto inexorável da Morte. E o Homem disse: ‘Existe um propósito oculto, se ao menos pudéssemos detectá-lo, e o propósito é bom; pois devemos reverenciar algo e no mundo visível não há nada digno de reverência’. […] E, quando ele seguiu os instintos que Deus tinha lhe transmitido dos seus ancestrais predadores, chamou a isso de Pecado e pediu a Deus que o perdoasse. […] E ele agradeceu a Deus pela força que lhe permitiu abrir mão mesmo das alegrias que eram possíveis. E Deus sorriu; e, quando viu que o Homem havia se tornado perfeito na renúncia e na adoração, lançou aos céus outro sol, que colidiu com o Sol do homem; e tudo retornou à nebulosa. ‘Sim’, Ele murmurou, ‘foi um belo espetáculo; vou mandar que repitam.’” Tal é o mundo, em suma, mas ainda mais desprovido de propósito e mais vazio de sentido, que a ciência oferece à nossa crença. bertrand russell (1903)
 > — loc. 1838
 <!-- kh loc=1838 added=2026-11-18 -->
+
+> Conhece-te a ti mesmo. inscrição no templo de apolo em delfos
+> — loc. 1900
+<!-- kh loc=1900 added=2026-11-22 -->
+
+> sócrates: Em cada um de nós, mesmo naqueles que parecem mais respeitáveis, existem desejos, terríveis em seu indomável desgoverno, que se revelam por meio dos sonhos. platão (século iv a.c.)
+> — loc. 1908
+<!-- kh loc=1908 added=2026-11-22 -->
+
+> Estamos tão acostumados a nos esconder dos outros que terminamos nos escondendo de nós mesmos. la rochefoucauld (1665)
+> — loc. 1953
+<!-- kh loc=1953 added=2026-11-22 -->
+
+> É tão fácil nos enganarmos a nós mesmos sem percebê-lo como é difícil enganarmos os outros sem que eles percebam. la rochefoucauld (1665)
+> — loc. 1958
+<!-- kh loc=1958 added=2026-11-22 -->
+
+> Nada é tão difícil quanto não se enganar a si próprio. wittgenstein (1938)
+> — loc. 1980
+<!-- kh loc=1980 added=2026-11-22 -->
+
+> Se existisse um verbo que significasse “acreditar falsamente”, ele não teria uma primeira pessoa do presente do indicativo dotada de significado. wittgenstein (1953)
+> — loc. 1982
+<!-- kh loc=1982 added=2026-11-22 -->
+
+> A mentira mais freqüente é aquela que se conta para si mesmo; mentir para os outros é relativamente a exceção. nietzsche (1888)
+> — loc. 1984
+<!-- kh loc=1984 added=2026-11-22 -->
+
+> Existe um modo de descobrir se um homem é honesto: pergunte a ele. Se ele disser que sim, sabemos que é desonesto. mark twain (sem data)
+> — loc. 1989
+<!-- kh loc=1989 added=2026-11-22 -->
+
+> A maioria dos homens são maus juízes quando seus próprios interesses estão envolvidos. aristóteles (século iv a.c.)
+> — loc. 1991
+<!-- kh loc=1991 added=2026-11-22 -->
+
+> Nem ao homem mais imparcial do mundo é permitido que se torne juiz em seu próprio caso. pascal (1662)
+> — loc. 1993
+<!-- kh loc=1993 added=2026-11-22 -->
