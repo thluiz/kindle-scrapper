@@ -3,7 +3,7 @@ title: O Suicida (Portuguese Edition)
 author: Claudio Coelho
 asin: B01JBH7JKG
 highlights: 4
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 # O Suicida (Portuguese Edition)
 *Claudio Coelho*

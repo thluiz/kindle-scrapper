@@ -3,7 +3,7 @@ title: O livro das citações (Portuguese Edition)
 author: Eduardo Giannetti
 asin: B00CZMRKDQ
 highlights: 119
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 # O livro das citações (Portuguese Edition)
 *Eduardo Giannetti*

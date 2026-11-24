@@ -3,7 +3,7 @@ title: "A DOR DO CORTE: A AUTO MUTILAÇÃO EM ADOLESCENTES COMO EXPRESSÃO DO SO
 author: Crisóstomo Almeida
 asin: B08HSY5FX6
 highlights: 9
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 # A DOR DO CORTE: A AUTO MUTILAÇÃO EM ADOLESCENTES COMO EXPRESSÃO DO SOFRIMENTO PSÍQUICO (Portuguese Edition)
 *Crisóstomo Almeida*
