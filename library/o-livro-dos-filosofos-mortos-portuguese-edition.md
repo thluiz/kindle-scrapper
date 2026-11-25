@@ -3,7 +3,7 @@ title: O Livro dos Filósofos Mortos (Portuguese Edition)
 author: Simon Critchley
 asin: B08MWZJ5TJ
 highlights: 93
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 # O Livro dos Filósofos Mortos (Portuguese Edition)
 *Simon Critchley*

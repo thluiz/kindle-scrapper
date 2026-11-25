@@ -3,7 +3,7 @@ title: How To Talk About Books You Haven't Read
 author: Pierre Bayard
 asin: B09GFLHRLY
 highlights: 10
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 # How To Talk About Books You Haven't Read
 *Pierre Bayard*

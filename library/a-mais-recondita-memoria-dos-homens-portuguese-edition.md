@@ -3,7 +3,7 @@ title: A mais recôndita memória dos homens (Portuguese Edition)
 author: Mohamed Mbougar Sarr and Diogo Cardoso
 asin: B0C4M1FLDR
 highlights: 1
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 # A mais recôndita memória dos homens (Portuguese Edition)
 *Mohamed Mbougar Sarr and Diogo Cardoso*
