@@ -2,8 +2,8 @@
 title: How To Talk About Books You Haven't Read
 author: Pierre Bayard
 asin: B09GFLHRLY
-highlights: 10
-updated: 2026-11-25
+highlights: 18
+updated: 2026-11-26
 ---
 # How To Talk About Books You Haven't Read
 *Pierre Bayard*
@@ -47,3 +47,35 @@ updated: 2026-11-25
 > even a prodigious reader never has access to more than an infinitesimal fraction of the books that exist.
 > — loc. 141
 <!-- kh loc=141 added=2026-11-22 -->
+
+> Reading is first and foremost non-reading. Even in the case of the most passionate lifelong readers, the act of picking up and opening a book masks the countergesture that occurs at the same time: the involuntary act of not picking up and not opening all the other books in the universe.
+> — loc. 174
+<!-- kh loc=174 added=2026-11-26 -->
+
+> Rather than any particular book, it is indeed these connections and correlations that should be the focus of the cultivated individual,
+> — loc. 211
+<!-- kh loc=211 added=2026-11-26 -->
+
+> Musil’s image of the brain powerfully underscores this theory that relations among ideas are far more important than the ideas themselves.
+> — loc. 213
+<!-- kh loc=213 added=2026-11-26 -->
+
+> As cultivated people know (and, to their misfortune, uncultivated people do not), culture is above all a matter of orientation. Being cultivated is a matter not of having read any book in particular, but of being able to find your bearings within books as a system, which requires you to know that they form a system and to be able to locate each element in relation to the others.
+> — loc. 220
+<!-- kh loc=220 added=2026-11-26 -->
+
+> I feel perfectly comfortable when Ulysses comes up in conversation, because I can situate it with relative precision in relation to other books. I know, for example, that it is a retelling of the Odyssey,8 that its narration takes the form of a stream of consciousness, that its action unfolds in Dublin in the course of a single day, etc. And as a result, I often find myself alluding to Joyce without the slightest anxiety.
+> — loc. 230
+<!-- kh loc=230 added=2026-11-26 -->
+
+> My intellectual library, like every library, is composed of gaps and blanks, but in reality this presents no real problem: it is sufficiently well stocked for any particular lacuna to be all but invisible.
+> — loc. 235
+<!-- kh loc=235 added=2026-11-26 -->
+
+> Most statements about a book are not about the book itself, despite appearances, but about the larger set of books on which our culture depends at that moment. It is that set, which I shall henceforth refer to as the collective library, that truly matters, since it is our mastery of this collective library that is at stake in all discussions about books.
+> — loc. 236
+<!-- kh loc=236 added=2026-11-26 -->
+
+> non-reading is not just the absence of reading. It is a genuine activity, one that consists of adopting a stance in relation to the immense tide of books that protects you from drowning. On that basis, it deserves to be defended and even taught.
+> — loc. 247
+<!-- kh loc=247 added=2026-11-26 -->
