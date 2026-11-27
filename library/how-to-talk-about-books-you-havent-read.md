@@ -2,8 +2,8 @@
 title: How To Talk About Books You Haven't Read
 author: Pierre Bayard
 asin: B09GFLHRLY
-highlights: 18
-updated: 2026-11-26
+highlights: 19
+updated: 2026-11-27
 ---
 # How To Talk About Books You Haven't Read
 *Pierre Bayard*
@@ -79,3 +79,7 @@ updated: 2026-11-26
 > non-reading is not just the absence of reading. It is a genuine activity, one that consists of adopting a stance in relation to the immense tide of books that protects you from drowning. On that basis, it deserves to be defended and even taught.
 > — loc. 247
 <!-- kh loc=247 added=2026-11-26 -->
+
+> Being culturally literate means being able to get your bearings quickly in a book, which does not require reading the book in its entirety—quite the opposite, in fact. One might even argue that the greater your abilities in this area, the less will it be necessary to read any book in particular.
+> — loc. 269
+<!-- kh loc=269 added=2026-11-27 -->
