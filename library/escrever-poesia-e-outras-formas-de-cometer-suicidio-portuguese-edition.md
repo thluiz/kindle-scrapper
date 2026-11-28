@@ -3,7 +3,7 @@ title: Escrever poesia e outras formas de cometer suicídio (Portuguese Edition)
 author: Linda Amanda
 asin: B095MCRHL5
 highlights: 12
-updated: 2026-11-27
+updated: 2026-11-28
 ---
 # Escrever poesia e outras formas de cometer suicídio (Portuguese Edition)
 *Linda Amanda*
